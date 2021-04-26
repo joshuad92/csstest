@@ -1,6 +1,880 @@
+.headerRow-45 {
+display: none;
+}
+
+.policycontainer56
+{
+padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
+
+/* Three columns side by side */
+.column1 {
+  float: left;
+  width: 66%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
 
 
-h1 {
-  color: #00FFDD;
-  font-size: 100px;
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 700px) {
+  .column1 {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Three columns side by side */
+.column6 {
+  float: right;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+border: 2px solid red;
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 700px) {
+    .column6 {
+        width: 100%;
+        display: block;
+    }
+
+    .row2 {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+    }
+
+    .divider1 {
+        background: #0078d4;
+        padding: 20px;
+        color: #FFF;
+    }
+
+    .cardpolicies a:hover {
+        color: red;
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
+
+    .cardpolicies {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+
+    .cardreverse {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+        transition: width 2s, height 4s;
+        background: #0078d4;
+        color: #FFF;
+        border: 2px solid white;
+    }
+
+        .cardreverse:hover {
+            box-shadow: 0px 10px 40px 0px #33658A;
+            background: # position: relative;
+            color: #FFF;
+        }
+
+    .imagefillreverse {
+        background: #0078d4;
+        color: #FFF;
+        padding: 20px;
+        border: 2px solid white;
+    }
+
+
+    #some-element li {
+        text-indent: -20px;
+        margin-left: 20px;
+    }
+
+
+    .cardreverse a:hover {
+        color: yellow;
+        text-decoration: underline;
+    }
+
+           /* Three columns side by side */
+        .column {
+            float: left;
+            width: 33%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+
+        /* Display the columns below each other instead of side by side on small screens */
+        @media screen and (max-width: 700px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* Add some shadows to create a card effect */
+        .card1 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            /* background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/acb38d02-758f-4b2e-ad49-028962fc4f16/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+    color: #FFF; */
+        }
+
+        /* Some left and right padding inside the container */
+        .container {
+            padding: 0 30px 16px;
+        }
+
+        }
+
+        /* Clear floats */
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #0078d4;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            .button:hover {
+                background-color: #555;
+            }
+
+
+        images {
+            width: 20%;
+        }
+
+
+        /* unvisited link */
+        a:link {
+            text-decoration: none;
+        }
+
+        /* visited link */
+        a:visited {
+            text-decoration: none;
+        }
+
+
+
+        .card1:hover {
+            box-shadow: 0px 10px 40px 0px #33658A;
+            background: url("");
+            position: relative;
+            color: #000;
+        }
+
+
+
+        .card2:hover {
+            box-shadow: 0px 10px 40px 0px #33658A;
+        }
+
+        .buttonblank {
+            border: none;
+            outline: 0;
+            opacity: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #0078d4;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .imagefill {
+            background: #0078d4;
+            color: #FFF;
+            padding: 20px;
+        }
+
+
+        .li {
+            list-style-type: square;
+            list-style-position: outside;
+        }
+
+        .boxesbg {
+            float: left;
+            width: 48%;
+            height: auto;
+            padding: 0px 0px 5px;
+        }
+
+        .boxright {
+            float: right;
+            width: 48%;
+            height: auto;
+            padding: 0px 0px 5px;
+        }
+
+        .row {
+            width: auto;
+        }
+
+        #some-element {
+            display: none;
+        }
+
+        #some-div:hover #some-element {
+            display: block;
+        }
+
+
+        #some-div:hover .button9 {
+            display: none;
+        }
+
+        .card1:hover .imagefill {
+            background: #14a391;
+        }
+
+        .card1:hover .button9 {
+            background: #14a391;
+        }
+
+        #some-div:hover .summary {
+            display: none;
+        }
+
+        .button9 {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #0078d4;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            .button9:hover {
+                opacity: 0;
+            }
+
+        .summary {
+            margin-top: 15px;
+        }
+
+
+        #some-element li {
+            text-indent: -20px;
+            margin-left: 20px;
+            list-style-position: outside;
+        }
+
+        .card a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card1 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card2 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card3 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card4 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card5 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card6 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card7 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card8 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card9 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card10 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card11 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card12 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card13 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card14 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+
+        .card15 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card16 a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        .card12:hover {
+            width: 120%;
+            height: 100%;
+            z-index: 1;
+            opacity: auto;
+        }
+
+        .card3 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/6b72f15c-1ea9-4600-8275-c35e0e702ac7/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card3:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card4 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/9b7c21d3-8eaa-41aa-8e1b-733d6e3084e3/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card4:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card5 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/ce32eb29-5c07-4333-bdff-c1a614fc5d45/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card5:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card6 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/bf18162a-7932-49c3-b5d9-4b48d8e41dfa/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card6:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card7 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/5a992420-6a10-42d6-a6ae-4be23b6dafbb/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card7:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card6:hover {
+            box-shadow: 0px 10px 40px 0px #33658A;
+            background: url("");
+            position: relative;
+            color: #000;
+        }
+
+        .card8 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/5c7f74c2-ac67-4a98-8c56-06d46ee771f8/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card8:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card9 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/ad001125-5c83-47c5-ab32-f95db97e1322/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card9:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card10 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/b5df37c5-039a-4e4e-818d-7ae982f0d7bf/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card10:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+
+        .card11 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/d9a80018-2579-49ae-bc41-641d77ee7f00/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card11:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+
+        .card12 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/53c3aa6d-f409-44ed-92e8-0a47018172ee/driveItem/thumbnails/0/c960x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card12:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card13 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/f798b2d3-03e1-4004-acba-7bb65fb9d93e/driveItem/thumbnails/0/c960x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card13:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+        .card14 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/2b0b4aca-e911-41b0-ad3c-a9dadeada1c4/driveItem/thumbnails/0/c960x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card14:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+
+        .card15 {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+            transition: width 2s, height 4s;
+            background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/0a0bc584-a16c-4667-833b-8ec6e98f440d/driveItem/thumbnails/0/c960x99999/content?preferNoRedirect=true");
+            color: #FFF;
+        }
+
+            .card15:hover {
+                box-shadow: 0px 10px 40px 0px #33658A;
+                background: url("");
+                position: relative;
+                color: #000;
+            }
+
+                    #some-element-one, #some-element-one1 {
+            display: none;
+        }
+
+        #some-element-two, #some-element-two1{
+            display: none;
+        }
+
+        #summary, #summary1 {
+            display: block;
+        }
+
+        #some-element-three, #some-element-three1 {
+            display: none;
+        }
+
+        /* Three columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add some shadows to create a card effect */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+overflow: hidden;
+
+
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 30px 16px;
+
+
+}
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #0078d4;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+
+images{
+width: 20%
+}
+  
+  
+/* unvisited link */
+a:link {
+
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration: none;
+
+}
+
+
+
+.card1:hover
+{
+    box-shadow: 0px 10px 40px 0px #33658A;
+
+  position: relative;
+
+}
+  
+
+
+.card2:hover
+{
+    box-shadow: 0px 10px 40px 0px #33658A;
+
+}
+
+.buttonblank {
+  border: none;
+  outline: 0;
+opacity: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #0078d4;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.imagefill{
+background: #0078d4;
+color: #FFF;
+padding: 20px;
+}
+
+
+.li {
+  list-style-type: square;
+}
+
+.boxesbg{
+float: left;
+width: 48%;
+height: auto;
+padding: 0px 0px 5px;
+
+}
+
+.boxright{
+float: right;
+width: 48%;
+height: auto;
+padding: 0px 0px 5px;
+
+}
+
+.row{
+width: auto;
+}
+
+#some-element {
+  display: none;
+
+}
+
+#some-div:hover #some-element {
+  display: block;
+}
+
+
+#some-div:hover .button9 {
+display: none;
+}
+
+  #some-div:hover .summary {
+display: none;
+}
+  
+.button9 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #0078d4;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button9:hover {
+
+opacity: 0;
+}
+  
+
+.card_incident {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+overflow: hidden;
+background: url("https://mcga.sharepoint.com/_api/v2.1/sites/mcga.sharepoint.com,7356f6d9-eddf-4b41-ae8d-21cd151babbf,0f894378-0e88-4686-9878-4cdd95fa6a04/lists/65775138-1c6d-4e1f-8c4e-577b7654ab73/items/acb38d02-758f-4b2e-ad49-028962fc4f16/driveItem/thumbnails/0/c1600x99999/content?preferNoRedirect=true" );
+color: #FFF;
+ background-repeat: no-repeat;
+}
+
+}
+
+.card_incident:hover {
+background: url("");
+color: #000;
+  }
+  
+
+}
+  
+#some-element a:hover {
+    color: #ff0000;
+  text-decoration: underline;
+    display: inline-block;
+margin-left: -20px;
+  padding-left: 20px;
+}
+
+#chev1down, #chev1right {
+display: display;
+}
+
+ #some-div-new:hover .button91 {
+            display: display;
+        }
+
+        .card1:hover .button91 {
+            background: #14a391;
+        }
+
+    .button91 {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #0078d4;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+            .button91:hover {
+                opacity: 0;
+            }
+
+        .summary1 {
+            margin-top: 15px;
+        }
+
+        #some-div-new:hover .summary1 {
+            display: none;
+        }
+
+        #some-div {
+  list-style: circle;
+   text-indent: 0px; /* key property */
+    margin-left: 0px; /* key property */
+}
+
+.container {
+
+
 }
