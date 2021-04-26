@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <title>Embedded Style Sheet</title>
 <style>
-.joshua {
-  color: #00FDD;
-  border: 2px solid #00FFDD;
-}
 
+h1 {
+  color: #00FFDD;
+  font-size: 100px;
+}
 </style>
 </head>
 </html>
