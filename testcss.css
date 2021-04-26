@@ -571,6 +571,7 @@ border: 2px solid red;
                 box-shadow: 0px 10px 40px 0px #33658A;
                 background: url("");
                 position: absolute;
+              z-index:9999;
                 color: #000;
             }
 
