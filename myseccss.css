@@ -40,11 +40,13 @@
 }
  nav.main_nav {
 	 min-height: 63px;
+	 z-index: 999;
 }
  nav.main_nav .main_nav_wrap {
 	 width: 100%;
 	 display: block;
 	 background-color: #414141;
+	 z-index: 999;
 }
  nav.main_nav .main_nav_wrap ul {
 	 margin: 0;
@@ -53,6 +55,7 @@
 	 flex-wrap: wrap;
 	 justify-content: center;
 	 list-style: none;
+	 z-index: 999;
 }
  nav.main_nav .main_nav_wrap ul li a {
 	 font-size: 1.2rem;
@@ -61,10 +64,12 @@
 	 color: #fff;
 	 transition: all 0.3s;
 	 background-color: transparent;
+	 z-index: 999;
 }
  nav.main_nav .main_nav_wrap ul li a:hover {
 	 text-decoration: none;
 	 background-color: #5b5b5b;
+	 z-index: 999;
 }
  .page_wrap {
 	 width: 95%;
