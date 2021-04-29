@@ -41,6 +41,9 @@
  nav.main_nav {
 	 min-height: 63px;
 	 z-index: 999;
+	 position: fixed;
+	 top: 0;
+	 left: 0;
 }
  nav.main_nav .main_nav_wrap {
 	 width: 100%;
